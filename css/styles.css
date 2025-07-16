@@ -11,7 +11,8 @@ a {
 }
 
 header a:hover,
-a :focus {
+a:focus,
+a:active{
 color: #404bbf;
 }
 
@@ -24,7 +25,7 @@ button {
     background-color: #4d5ae5;
 }
 
-button:hover,
+button:hover, 
 button:focus {
     background-color: #404bbf;
 }
@@ -41,7 +42,7 @@ ul {
 .nav {}
 
 .logo {
-    font-family: "Raleway", sans-serif,;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -98,9 +99,7 @@ ul {
     color: #fff;
 }
 
-.hero-btn-button {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-}
+.hero-btn-button {}
 
 /* #endregion Hero */
 
@@ -148,7 +147,6 @@ ul {
 .team-list {}
 
 .team-item {
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
 }
 
