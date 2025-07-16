@@ -2,6 +2,7 @@
 body {
     font-family: "Roboto", "Raleway", sans-serif;
     color: #434455;
+    background-color: #ffffff;
 }
 
 a {
@@ -105,7 +106,7 @@ ul {
     color: #fff;
 }
 
-.hero-btn {
+.hero-btn-button {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -149,6 +150,7 @@ ul {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .team-list {}
@@ -187,6 +189,7 @@ ul {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .portfolio-list {}
