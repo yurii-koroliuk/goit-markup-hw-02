@@ -1,6 +1,6 @@
 /* #region Common */
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
@@ -16,14 +16,16 @@ color: #404bbf;
 }
 
 button {
+    font-weight: 500;
     cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
 }
 
 button:hover,
 button:focus {
-    color: #fff;
     background-color: #404bbf;
 }
 
@@ -31,19 +33,7 @@ ul {
     list-style-type: none;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
 
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 /* #endregion Common */
 /* #region Header */
 .header {}
@@ -51,6 +41,7 @@ ul {
 .nav {}
 
 .logo {
+    font-family: "Raleway", sans-serif,;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -78,14 +69,15 @@ ul {
 
 .nav-link {}
 
-.contacts {}
+.contacts {
+    font-style: normal
+}
 
 .contacts-list {}
 
 .contacts-item {}
 
 .contacts-link {
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
